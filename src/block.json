@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/faq-accordion",
+	"version": "0.1.0",
+	"title": "Faq Accordion",
+	"category": "common",
+	"icon": "smiley",
+	"description": "This block provides a Gutenberg block for creating a collapsible FAQ section.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "faq-accordion",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
